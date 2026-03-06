@@ -7,7 +7,7 @@ app = Flask(__name__)
 def health():
     return jsonify({
         "status": "UP",
-        "message": "Application is running faster than ever!"
+        "message": "Application is running faster than !"
     }), 200
 
 
