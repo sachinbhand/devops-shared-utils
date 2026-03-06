@@ -7,7 +7,7 @@ app = Flask(__name__)
 def health():
     return jsonify({
         "status": "UP",
-        "message": "Application is running"
+        "message": "Application is running faster than ever!"
     }), 200
 
 
@@ -18,7 +18,7 @@ def get_data():
         "name": "Sachin",
         "role": "DevOps Engineer",
         "message": "Hello from Flask API"
-    }), 200
+    }), 
 
 
 if __name__ == '__main__':
