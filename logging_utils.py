@@ -18,3 +18,6 @@ def log_error(message):
     Log an error message
     """
     logging.error(message)
+# New function added for dependency update
+def log_warning(message):
+    logging.warning(message)
