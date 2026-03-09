@@ -1,3 +1,6 @@
 [submodule "devops-shared-utils"]
 	path = devops-shared-utils
 	url = https://github.com/sachinbhand/devops-shared-utils
+[submodule "libs/devops-shared-utils"]
+	path = libs/devops-shared-utils
+	url = git@github.com:sachinbhand/devops-shared-utils.git
